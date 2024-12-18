@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="navbar">
+                <div class="contanir">
+                    <div class="logo">
+                        <a href="#"><img src="./images/logo@2x.png" alt>
+                            weather</a>
+                    </div>
+                    <ul>
+                        <li><a href="#" class="special">home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">live cameras</a></li>
+                        <li><a href="#">photos</a></li>
+                        <li><a href="#">contact</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="img">
+                <img src="./images/pexels-photo-186077.jpeg" alt>
+            </div>
+
+            <div class="layer ">
+
+            </div>
+
+            <div class="input">
+
+                <input class="form-control" onclick="InputEvent" id="searchinput" list="datalistOptions"
+                    id="exampleDataList" placeholder="find to location...">
+                <button class="btn btn-primary " id="search" type="submit">Button</button>
+            </div>
+        </div>
+
+        <div class="container d-flex justify-content-center" id="rowdata">
+            <div class="card" >
+
+                <ul class="list-group list-group-flush">
+
+                    <li
+                        class="list-group-item d-flex justify-content-between ">saterday
+                        <p> 20 Novamber</p>
+                    </li>
+                </ul>
+                <div class="container">
+                    <p class="text ">cario</p>
+                    <p class="degree">18.3 c</p>
+                    <img
+                        src="./images/cartoon-stick-white-cloud-blue-raindrop-weather-cloud-vector-hand-drawn-elements_2571535.png!sw800"
+                        width="20%" alt>
+                    <p class="text-info">Partly cloudy</p>
+
+                    <div class="icons ">
+                        <i class="fa-solid fa-umbrella"><span>20%</span></i>
+                        <i class="fa-solid fa-cloud"><span>18 km/h</span></i>
+                        <i class="fa-solid fa-wind"><span>East</span></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card" style="width: 18rem;">
+
+                <ul class="list-group list-group-flush">
+
+                    <li
+                        class="list-group-item d-flex justify-content-center ">saterday
+
+                    </li>
+                </ul>
+                <div class="container img1  ">
+                    <img src="./images/113.webp" class="m-5" alt>
+                    <div class="text1 d-block ">
+                        <p>22.6 c</p>
+                        <p>13.6 c</p>
+                        <p class="text-info">sunny</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="card" style="width: 18rem;">
+
+                <ul class="list-group list-group-flush">
+
+                    <li
+                        class="list-group-item d-flex justify-content-center">saterday
+
+                    </li>
+                </ul>
+                <div class="container img1  ">
+                    <img src="./images/113.webp" class="m-5" alt>
+                    <div class="text1 d-block ">
+                        <p>22.6 c</p>
+                        <p>13.6 c</p>
+                        <p class="text-info">sunny</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+      
+        <script src="./bootstrap.bundle.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
